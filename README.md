@@ -1,1 +1,1 @@
-This C++ program allows users to create and manage customer records. It defines a Customer structure with attributes for ID, name, and email. The program prompts the user for these details, stores them in a Customer object, and displays the entered information.
+This C++ program allows users to create and manage customer records. It defines a customer structure with attributes for ID, name, and email. The program prompts the user for these details, stores them in a customer object, and displays the entered information.
