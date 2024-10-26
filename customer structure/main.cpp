@@ -11,15 +11,15 @@
 int main() {
     Customer customer;
 
-    // Ask user for customer details
+    // Asks the user for their customer details and stores in variables
     std::cout << "Enter Customer ID: ";
     std::cin >> customer.id;
-    std::cin.ignore(); // Clear the newline from the input buffer
+    std::cin.ignore(); // Clears the newline from the input buffer
 
-    std::cout << "Enter Customer Name: ";
+    std::cout << "Enter Customer Name: "; // stores customer name in string
     std::getline(std::cin, customer.name);
 
-    std::cout << "Enter Customer Email: ";
+    std::cout << "Enter Customer Email: "; // stores customer email
     std::getline(std::cin, customer.email);
 
     // Print the customer details
